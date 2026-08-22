@@ -10,7 +10,8 @@
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{caption}
-\usepackage[numbers]{natbib}
+\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}
+\addbibresource{referencias.bib}
 \usepackage{hyperref}
 
 \hypersetup{
@@ -391,23 +392,6 @@ para distinguir mi aporte real del de mi equipo.
 
 Para la elaboración del presente informe se utilizó una herramienta de inteligencia artificial como apoyo en la organización de ideas, la corrección de ambigüedades, la revisión gramatical conforme a la rúbrica EV-AUT-03, la explicación de conceptos sobre las herramientas del PFC y la orientación en la comparación de alternativas. Asimismo, se empleó en la verificación técnica de los commits de los repositorios Git (Proyecto\_Fin\_de\_Curso\_scli y Entrega-final-del-PFC). La selección de las fuentes bibliográficas, la revisión de su pertinencia y la verificación de referencias en repositorios académicos (ResearchGate, Google Scholar y otros) fueron realizadas manualmente por el autor. La selección de evidencias, las decisiones de diseño, el análisis, la interpretación de los resultados y la postura crítica presentados son de autoría individual del estudiante, quien revisó y editó el contenido en su totalidad antes de la entrega.
 
-\begin{thebibliography}{9}
-
-\bibitem{kleppmann2015}
-M. Kleppmann, ``A Critique of the CAP Theorem,'' \textit{arXiv preprint},
-arXiv:1509.05393, Sep. 2015. doi: 10.48550/arXiv.1509.05393.
-
-\bibitem{barletta2024}
-M. Barletta, M. Cinque, C. Di Martino, Z. T. Kalbarczyk, and R. K. Iyer,
-``Mutiny! How does Kubernetes fail, and what can we do about it?,''
-\textit{arXiv preprint}, arXiv:2404.11169, Apr. 2024.
-doi: 10.48550/arXiv.2404.11169.
-
-\bibitem{chen2025}
-Z. Chen, M. Goudarzi, and A. N. Toosi, ``Resilience Evaluation of Kubernetes
-in Cloud-Edge Environments via Failure Injection,'' \textit{arXiv preprint},
-arXiv:2507.16109, Jul. 2025. doi: 10.48550/arXiv.2507.16109.
-
-\end{thebibliography}
+\printbibliography
 
 \end{document}
